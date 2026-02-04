@@ -1,0 +1,29 @@
+# 1. 환경 변수 및 비밀번호 (필수!)
+.env
+
+# 2. 파이썬 가상환경
+env/
+venv/
+.venv/
+bin/
+include/
+lib/
+share/
+
+# 3. 데이터 관련 (Kaggle 원본 및 대용량 데이터)
+data/
+
+# 4. 에이전트가 생성한 출력물 및 스크립트
+# (코드 베이스만 관리하고 싶다면 제외하는 것이 좋습니다)
+generated_scripts/*.py
+
+# 5. 파이썬 캐시 및 시스템 파일
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# 6. IDE 및 에디터 설정
+.vscode/
+.idea/
